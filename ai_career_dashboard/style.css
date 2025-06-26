@@ -1,0 +1,45 @@
+/* style.css - Dark Mode */
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #ffffff;
+}
+
+.stApp {
+    background-color: #121212;
+}
+
+.stTextInput > label, .stPasswordInput > label {
+    color: #cfcfcf;
+    font-weight: 600;
+}
+
+.stCodeBlock {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    border-radius: 8px;
+}
+
+.stButton > button {
+    background-color: #1f6feb;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1158c7;
+    cursor: pointer;
+}
+
+footer, header {
+    visibility: hidden;
+}
